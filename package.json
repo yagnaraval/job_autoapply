@@ -1,0 +1,24 @@
+{
+  "name": "job-autoapply",
+  "version": "1.0.0",
+  "description": "A local Playwright assistant for preparing Wellfound job applications.",
+  "main": "auto-apply-runner.js",
+  "author": "yraval",
+  "private": false,
+  "keywords": [
+    "wellfound",
+    "job-search",
+    "playwright",
+    "job-application"
+  ],
+  "scripts": {
+    "start": "node auto-apply-runner.js wellfound",
+    "dry-run": "node auto-apply-runner.js wellfound",
+    "login": "node auto-apply-runner.js wellfound login"
+  },
+  "dependencies": {
+    "playwright-core": "^1.61.1",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}

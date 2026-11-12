@@ -1,0 +1,27 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Dependencies and browser sessions
+node_modules/
+.wellfound-chrome-profile/
+.indeed-chrome-profile/
+.naukri-apply-profile/
+.naukri-chrome-profile/
+
+# Runtime output and personal application history
+applications.csv
+applications-old.csv
+apply-state-*.json
+auto-apply-*.log
+blocked-step-*.png
+screenshots/
+
+# Local backups and editor/OS files
+*.bak
+*.pre-ai-patch.bak
+.DS_Store
+._*
+*.swp
+*.tmp
