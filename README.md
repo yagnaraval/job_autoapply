@@ -30,7 +30,7 @@ This project does not guarantee that every job form or question will be recogniz
 
 ```bash
 git clone https://github.com/yagnaraval/job_autoapply.git
-cd job-autoapply
+cd job_autoapply
 npm install
 ```
 
