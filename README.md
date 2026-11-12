@@ -1,6 +1,6 @@
 # Job AutoApply
 
-A local Playwright-based assistant that helps prepare job applications on **Wellfound**. It opens a persistent Chrome session, reads your local profile from `.env`, and fills supported application forms with a tailored cover letter and answers to common questions.
+A local Node.js/JavaScript-powered job application assistant that helps prepare applications on **Wellfound**. It opens a persistent Chrome session, reads your local profile from `.env`, and fills supported application forms with a tailored cover letter and answers to common questions.
 
 **Current platform support:** Wellfound only. Naukri and Indeed are not implemented in this repository.
 
@@ -29,7 +29,7 @@ This project does not guarantee that every job form or question will be recogniz
 ### 1. Install dependencies
 
 ```bash
-git clone https://github.com/yagnaraval/job-autoapply.git
+git clone https://github.com/yagnaraval/job_autoapply.git
 cd job-autoapply
 npm install
 ```
